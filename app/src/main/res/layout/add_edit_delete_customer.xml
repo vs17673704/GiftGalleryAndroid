@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="ID"
+            android:textColor="#4A88EE"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/customerId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter customer ID"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Name"
+            android:textColor="#4A88EE"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/customerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter name"
+            android:inputType="number"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:text="Address"
+            android:textColor="#4A88EE"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/cutomerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter address"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:maxLines="8"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:text="Phone"
+            android:textColor="#4A88EE"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/customerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter phone"
+            android:inputType="number"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:text="Email"
+            android:textColor="#4A88EE"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/customerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:text="Password"
+            android:textColor="#4A88EE"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/customerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter password"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

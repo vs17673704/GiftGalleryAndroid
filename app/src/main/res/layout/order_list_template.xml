@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:columnCount="2"
+        android:rowCount="4">
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="Item:"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/orderedItemName"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="10"
+            android:layout_gravity="fill"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/orderIdText"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="Ordere ID"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/orderId"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="10"
+            android:layout_gravity="fill"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="Status"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/orderStatus"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="10"
+            android:layout_gravity="fill"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="Order Date"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/orderDate"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:textSize="18dp">
+
+        </TextView>
+        <TextView>
+
+        </TextView>
+        <TextView
+            android:id="@+id/custName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+        </TextView>
+
+</GridLayout>

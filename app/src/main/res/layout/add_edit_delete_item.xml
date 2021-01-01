@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Name:"
+            android:textColor="#6Ba5ff"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/saveEditItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter item name"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Price:"
+            android:textColor="#6Ba5ff"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/saveEditItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter item price"
+            android:inputType="number"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:text="ID:"
+            android:textColor="#6Ba5ff"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/saveEditItemId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter item ID"
+            android:inputType="number"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+</LinearLayout>

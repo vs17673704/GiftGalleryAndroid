@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomerDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/itemListAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:padding="20dp"
+                android:text="MANAGE \n ITEMS"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/myOrdersAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:padding="20dp"
+                android:text="MANAGE \n ORDERS"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/adminAllCustomers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:padding="20dp"
+                android:text="MANAGE \n USERS"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/logouButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:padding="20dp"
+                android:text="LOGOUT"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

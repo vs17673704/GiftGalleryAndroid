@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list.ItemList">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="367dp"
+        android:layout_height="539dp"
+        android:dividerHeight="1dp"
+        android:fadeScrollbars="false"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAddRefresh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/buttonAddRefresh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@xml/button"
+        android:orientation="horizontal"
+        android:text="ADD ITEM"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/addItemButton"
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#6Ba5ff"
+            android:focusable="true"
+            android:text="ADD"
+            android:textColor="#ffffff"
+            android:textSize="25sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/refreshItemButton"
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#6Ba5ff"
+            android:focusable="true"
+            android:text="REFRESH"
+            android:textColor="#ffffff"
+            android:textSize="25sp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No items to show"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/listView">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
